@@ -53,34 +53,64 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<span class="date">October 01, 2018</span>
+									<span class="date">November 24, 2018</span>
 									<h2><a href="#">MIT 6.0001<br />
-									Problem Sheet 0</a></h2>
-									<a href="#" class="image main"><img src="images/mathimage.jpg" alt="" /></a >
-									<p>This is the first problem set of the course entitled Introduction to Computer Science and Programming in Python.
-                                            It asks the user to give x a value and give y a value. 
-											It then tells the user what x<sup>y</sup> is and what log<sub>2</sub>(x) is.
-											I have embedded my Python code into my website using a website called Trinket. 
-											In order to use the code please press the play button on the top left of the box below. 
-											If you are using a computer you will then be asked for input on the right hand side. If you
-											are on a mobile, this will appear in the centre of the screen after hitting play. 
-											
-										
+									Problem Sheet 1</a></h2>
+									<a href="#" class="image main"><img src="images/ps1.jpg" alt="" /></a >
 									
-                                    </p>
+									
                                     
 
 
                                     
 								</header >
-                                
+
+								<p>    
+									This is the second problem set of the course entitled Introduction to Computer Science
+									 and Programming in Python. The first part of the problem involved making a calculator 
+									 for how many months it would take you to save enough money for a down payment on a house, 
+									 based on your salary, the price of the house and how much you are willing to save each month. 
+									 We were asked to assume that the down payment would be 25% of the total cost of the house. 
+									 We were also asked to assume that at the end of each month we make 0.33% interest on our savings.
+									
+								</p>
+
+                                <p>
+									<iframe src="https://trinket.io/embed/python3/1dcc2ebfdf" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+									</p>
                                     
-                                <iframe src="https://trinket.io/embed/python/72286e06cb" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen id="ps0_trinket"></iframe>
+                                
                                 
                         
                                 
                                 <p>
-                                </p>
+										The second part of this problem set involved modifying the above calculator such that instead
+										 of receiving a fixed salary, the user gets a raise every 6 months. The amount the raise is, 
+										 is a question that the user has to answer. 
+								</p>
+								
+								<p>
+									<iframe src="https://trinket.io/embed/python3/8cfd08406b" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+								</p>
+
+								<p>
+										The last part of the problem sheet assumes that we want to finish saving 
+										for our down payment in exactly 3 years. The calculator will then tell us 
+										how much we will need to put away each month in order to achieve this. It is assumed 
+										that that house costs $1,000,000 and that we get a raise of 0.07 each 6 months. In order 
+										to solve this problem we use a bisection search, which means the computer guesses an amount to 
+										save each month and then modifies this guess until it comes up with a total amount saved that is 
+										close enough to how much we need for the down payment. In the case of this problem, we tell the computer 
+										that the total amount saved must be within $100 of the down payment. If we never get to within $100
+										of the downpayment, we terminate the code and tell the user that they don't earn enough to afford the down payment
+										in 3 years.  
+
+										
+								</p>
+								<p>
+									<iframe src="https://trinket.io/embed/python3/d5ed8b630f" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+								</p>
+							
 
                                 <ul class="actions special">
 									<li><a href="index.html" class="button large">Go back</a></li>
