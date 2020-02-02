@@ -1,5 +1,0 @@
-This is the third problem set for the MIT course entitled Introduction to Computer Science and Programming in Python.
-For this problem set we had to make a Boggle-like game in Python. If you have never played Boggle, it is a
-popular word game. You have a box which contains dice with a different letter on each face. First you have to shake the box
-to see what letters you will be playing with. Then you must make as many words out these letters as possible. 
-									
